@@ -1,10 +1,11 @@
 # 网站基础设置
-baseURL: /
+baseURL: "https://xuanhuaiblog.vercel.app/"
 languageCode: zh-cn
-title: 许安槐的碎片  # 这里可以改成你喜欢的名字
-theme: reimu        # 这一行必须对应 themes 文件夹下的名字
+title: "许安槐的碎片"  # 建议加双引号，防止特殊字符报错
+theme: "reimu"
 
-# 主题特定参数
+# 强制 Hugo 扫描 posts 文件夹
 params:
   author: "许安槐"
-  description: ""
+  description: "保持思考，不忘初心"
+  mainSections: ["posts"] # 这一行非常关键，告诉主题去哪里抓文章
