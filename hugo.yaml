@@ -1,0 +1,10 @@
+# 网站基础设置
+baseURL: /
+languageCode: zh-cn
+title: 许安槐的碎片  # 这里可以改成你喜欢的名字
+theme: reimu        # 这一行必须对应 themes 文件夹下的名字
+
+# 主题特定参数
+params:
+  author: "许安槐"
+  description: ""
