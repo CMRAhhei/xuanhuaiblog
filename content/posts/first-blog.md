@@ -6,4 +6,4 @@ draft: false
 
 ### Hello,World！
 这是我通过 Hugo 搭建的第一个个人博客。
-谷歌的Gemini帮了我很多，没有AI我估计要做上一天才能做出来吧。
+谷歌的Gemini帮了我很多，没有AI我估计要做上一周才能做出来。
