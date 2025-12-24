@@ -516,7 +516,7 @@ top:
 
 # whether to display the notification when the article is outdated
 outdate:
-  enable: true
+  enable: false
   daysAgo: 180 # The number of days after which the article is considered outdated
   message:
     en: This article was last updated on {time}. Please note that the content may no longer be applicable.

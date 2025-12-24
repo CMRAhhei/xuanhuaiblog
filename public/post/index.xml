@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>许安槐的碎片</title>
-    <link>http://localhost:1313/</link>
+    <title>Posts on 许安槐的碎片</title>
+    <link>http://localhost:1313/post/</link>
     <description>Recent content from 许安槐的碎片</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
@@ -15,7 +15,7 @@
     <lastBuildDate>Wed, 24 Dec 2025 11:50:00 +0800</lastBuildDate>
     
     
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss&#43;xml" />
+    <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss&#43;xml" />
     
 
     
@@ -23,10 +23,10 @@
 
     <item>
       <title>hugo的备忘录</title>
-      <link>http://localhost:1313/posts/backup/</link>
+      <link>http://localhost:1313/post/backup/</link>
       <pubDate>Wed, 24 Dec 2025 11:50:00 &#43;0800</pubDate>
       <author>563112309@qq.com (许安槐)</author>
-      <guid>http://localhost:1313/posts/backup/</guid>
+      <guid>http://localhost:1313/post/backup/</guid>
       <description>
         <![CDATA[<h1>hugo的备忘录</h1><p>作者：许安槐（563112309@qq.com）</p>
         
@@ -75,10 +75,10 @@
 
     <item>
       <title>防止走的太远，忘记为什么出发</title>
-      <link>http://localhost:1313/posts/first-blog/</link>
+      <link>http://localhost:1313/post/first-blog/</link>
       <pubDate>Sun, 21 Dec 2025 00:00:00 &#43;0000</pubDate>
       <author>563112309@qq.com (许安槐)</author>
-      <guid>http://localhost:1313/posts/first-blog/</guid>
+      <guid>http://localhost:1313/post/first-blog/</guid>
       <description>
         <![CDATA[<h1>防止走的太远，忘记为什么出发</h1><p>作者：许安槐（563112309@qq.com）</p>
         
