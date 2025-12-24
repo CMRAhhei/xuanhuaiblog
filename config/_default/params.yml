@@ -579,7 +579,7 @@ home_categories:
 
 # Experimental, may have a lot of bugs, open with caution!
 pjax:
-  enable: false
+  enable: true
 
 # Experimental
 # https://github.com/GoogleChromeLabs/quicklink
@@ -615,30 +615,33 @@ pace:
 # Experimental
 # Please turn on pjax to use this feature
 player:
-  disable_on_mobile: false
+  disable_on_mobile: false 
   position: before_sidebar # before_sidebar | after_sidebar | after_widget
   # if you enable meting, you must enable aplayer first
   aplayer:
     # https://github.com/DIYgod/APlayer
-    enable: false
+    enable: true
     options:
       audio: []
       fixed: true
-      autoplay:
-      loop:
-      order:
+      mini: false
+      autoplay: false
+      loop: "all"
+      order: "list"
+      theme: '#ed333b'
       preload:
-      volume:
-      mutex:
-      listFolded:
+      volume: 0.7
+      mutex: true
+      listFolded: false
+      listMaxHeight: '250px'
       lrcType:
   meting:
     # https://github.com/metowolf/MetingJS
     # if you want to use meting, please enable aplayer first
-    enable: false
+    enable: true
     meting_api: # custom api
     options:
-      id: 2265921590
+      id: 380968980 #2265921590
       server: netease
       type: playlist
       auto:
@@ -716,3 +719,9 @@ internal_theme:
     --highlight-deletion-bg: "#490202"
     --highlight-addition: "#7ee787"
     --highlight-addition-bg: "#04260f"
+
+########################################
+# Custom Assets
+########################################
+custom_css:
+  - "css/custom.css" # 告诉 Hugo 加载你刚才写的放大代码

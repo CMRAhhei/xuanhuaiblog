@@ -1,0 +1,21 @@
+/* 让 APlayer 在吸附模式下变得更宽、更显眼 */
+.aplayer.aplayer-fixed {
+    width: 400px !important; /* 你可以根据需要调大这个数值，比如 500px */
+    transition: width 0.3s ease-in-out;
+}
+
+/* 鼠标悬停时进一步放大，增加交互感 */
+.aplayer.aplayer-fixed:hover {
+    width: 600px !important;
+}
+
+/* 调整封面大小，让它更有存在感 */
+.aplayer.aplayer-fixed .aplayer-pic {
+    height: 80px !important;
+    width: 80px !important;
+}
+
+/* 调整右侧正文区域高度以匹配封面 */
+.aplayer.aplayer-fixed .aplayer-body {
+    height: 80px !important;
+}
