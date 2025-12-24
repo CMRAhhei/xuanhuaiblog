@@ -23,10 +23,10 @@
 
     <item>
       <title>hugo的备忘录</title>
-      <link>http://localhost:1313/posts/backup/</link>
+      <link>http://localhost:1313/posts/%E5%A4%87%E5%BF%98%E5%BD%95/</link>
       <pubDate>Wed, 24 Dec 2025 11:50:00 &#43;0800</pubDate>
       <author>563112309@qq.com (许安槐)</author>
-      <guid>http://localhost:1313/posts/backup/</guid>
+      <guid>http://localhost:1313/posts/%E5%A4%87%E5%BF%98%E5%BD%95/</guid>
       <description>
         <![CDATA[<h1>hugo的备忘录</h1><p>作者：许安槐（563112309@qq.com）</p>
         
@@ -65,6 +65,22 @@
 <blockquote>
 <p><strong>提示</strong>：一旦 push 成功，Vercel 会自动构建并刷新域名内容。</p>
 </blockquote>
+<hr>
+<h3 id="-如何添加图片">
+<a class="header-anchor" href="#-%e5%a6%82%e4%bd%95%e6%b7%bb%e5%8a%a0%e5%9b%be%e7%89%87"></a>
+🖼️ 如何添加图片
+</h3><ol>
+<li><strong>物理存放</strong>：把图片文件（如 <code>me.webp</code>）放入项目的 <code>static/images/</code> 目录下。</li>
+<li><strong>代码引用</strong>：在 .md 文件中使用标准 Markdown 语法：
+<code>![图片描述](/images/图片名.后缀)</code></li>
+<li><strong>关键细节</strong>：
+<ul>
+<li><strong>绝对路径</strong>：路径开头必须是 <code>/</code>，代表从根目录出发。</li>
+<li><strong>省略 static</strong>：虽然图片在 <code>static/images/</code>，但引用代码里<strong>绝对不能</strong>写 <code>static</code> 这个词。</li>
+<li><strong>严格匹配</strong>：文件名的大小写、后缀名（.jpg 和 .jpeg 是不同的）必须完全一致。</li>
+</ul>
+</li>
+</ol>
         
         <hr><p>本文2025-12-24首发于<a href='http://localhost:1313/'>许安槐的碎片</a>，最后修改于2025-12-24</p>]]>
       </description>
