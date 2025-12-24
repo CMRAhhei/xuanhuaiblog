@@ -1,19 +1,30 @@
 ---
 title: "hugo的备忘录"
 date: 2025-12-24
-draft: true
+draft: false
 ---
 
- ### 关于hugo的使用
-新建：使用命令 hugo new posts/my-new-post.md。这样 Hugo 会自动带上日期。
-编写：在 VS Code 里写 Markdown。
-管理：如果要修改关于页面或友链，去 content/about.md 或 content/friend.md 修改。
-本地调试
-养成先运行 hugo server -D 的习惯。
-在浏览器查看 localhost:1313，确认头像、图片、排版没问题再提交。
-### 云端同步（自动化生产线）
-由于你接通了 Vercel，你的维护动作只需要：
-git add .
-git commit -m "Update: 添加关于电气的备忘录"
-git push
-一旦 push 成功，Vercel 会自动帮你构建并刷新域名内容。
+### 📝 关于 Hugo 的日常使用
+
+* **新建**：使用命令 `hugo new posts/my-new-post.md`。这样 Hugo 会自动带上日期。
+* **编写**：在 VS Code 里编写 Markdown，建议安装 `Markdown All in One` 插件。
+* **管理**：修改特殊页面，路径如下：
+    * 关于页面：`content/about.md`
+    * 友链页面：`content/friend.md`
+
+---
+
+### 🛠️ 本地调试 SOP
+1.  **启动服务**：养成运行 `hugo server -D` 的习惯。
+2.  **实时预览**：在浏览器访问 `http://localhost:1313`。
+3.  **验收检查**：确认头像、图片、排版无误后再提交。
+
+---
+
+### 🚀 云端同步（自动化生产线）
+由于已接通 Vercel，维护动作只需三步：
+1. `git add .`
+2. `git commit -m "Update: 添加关于电气的备忘录"`
+3. `git push`
+
+> **提示**：一旦 push 成功，Vercel 会自动构建并刷新域名内容。

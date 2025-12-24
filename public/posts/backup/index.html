@@ -147,8 +147,9 @@
   <ul>
     <li>
       <ul>
-        <li><a href="#关于hugo的使用">关于hugo的使用</a></li>
-        <li><a href="#云端同步自动化生产线">云端同步（自动化生产线）</a></li>
+        <li><a href="#-关于-hugo-的日常使用">📝 关于 Hugo 的日常使用</a></li>
+        <li><a href="#-本地调试-sop">🛠️ 本地调试 SOP</a></li>
+        <li><a href="#-云端同步自动化生产线">🚀 云端同步（自动化生产线）</a></li>
       </ul>
     </li>
   </ul>
@@ -247,23 +248,41 @@
         >
           <p class="alert-heading">WARNING</p>
           <p></p>
-        </blockquote><h3 id="关于hugo的使用">
-<a class="header-anchor" href="#%e5%85%b3%e4%ba%8ehugo%e7%9a%84%e4%bd%bf%e7%94%a8"></a>
-关于hugo的使用
-</h3><p>新建：使用命令 hugo new posts/my-new-post.md。这样 Hugo 会自动带上日期。
-编写：在 VS Code 里写 Markdown。
-管理：如果要修改关于页面或友链，去 content/about.md 或 content/friend.md 修改。
-本地调试
-养成先运行 hugo server -D 的习惯。
-在浏览器查看 localhost:1313，确认头像、图片、排版没问题再提交。</p>
-<h3 id="云端同步自动化生产线">
-<a class="header-anchor" href="#%e4%ba%91%e7%ab%af%e5%90%8c%e6%ad%a5%e8%87%aa%e5%8a%a8%e5%8c%96%e7%94%9f%e4%ba%a7%e7%ba%bf"></a>
-云端同步（自动化生产线）
-</h3><p>由于你接通了 Vercel，你的维护动作只需要：
-git add .
-git commit -m &ldquo;Update: 添加关于电气的备忘录&rdquo;
-git push
-一旦 push 成功，Vercel 会自动帮你构建并刷新域名内容。</p>
+        </blockquote><h3 id="-关于-hugo-的日常使用">
+<a class="header-anchor" href="#-%e5%85%b3%e4%ba%8e-hugo-%e7%9a%84%e6%97%a5%e5%b8%b8%e4%bd%bf%e7%94%a8"></a>
+📝 关于 Hugo 的日常使用
+</h3><ul>
+<li><strong>新建</strong>：使用命令 <code>hugo new posts/my-new-post.md</code>。这样 Hugo 会自动带上日期。</li>
+<li><strong>编写</strong>：在 VS Code 里编写 Markdown，建议安装 <code>Markdown All in One</code> 插件。</li>
+<li><strong>管理</strong>：修改特殊页面，路径如下：
+<ul>
+<li>关于页面：<code>content/about.md</code></li>
+<li>友链页面：<code>content/friend.md</code></li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="-本地调试-sop">
+<a class="header-anchor" href="#-%e6%9c%ac%e5%9c%b0%e8%b0%83%e8%af%95-sop"></a>
+🛠️ 本地调试 SOP
+</h3><ol>
+<li><strong>启动服务</strong>：养成运行 <code>hugo server -D</code> 的习惯。</li>
+<li><strong>实时预览</strong>：在浏览器访问 <code>http://localhost:1313</code>。</li>
+<li><strong>验收检查</strong>：确认头像、图片、排版无误后再提交。</li>
+</ol>
+<hr>
+<h3 id="-云端同步自动化生产线">
+<a class="header-anchor" href="#-%e4%ba%91%e7%ab%af%e5%90%8c%e6%ad%a5%e8%87%aa%e5%8a%a8%e5%8c%96%e7%94%9f%e4%ba%a7%e7%ba%bf"></a>
+🚀 云端同步（自动化生产线）
+</h3><p>由于已接通 Vercel，维护动作只需三步：</p>
+<ol>
+<li><code>git add .</code></li>
+<li><code>git commit -m &quot;Update: 添加关于电气的备忘录&quot;</code></li>
+<li><code>git push</code></li>
+</ol>
+<blockquote>
+<p><strong>提示</strong>：一旦 push 成功，Vercel 会自动构建并刷新域名内容。</p>
+</blockquote>
 </div>
     <footer class="article-footer"><ul class="article-tag-list" itemprop="keywords"></ul>
 </footer>
@@ -305,7 +324,7 @@ git push
         >
       </div><div>
         <span class="icon-brush"
-          >&nbsp;47</span
+          >&nbsp;57</span
         >
         &nbsp;|&nbsp;
         <span class="icon-coffee">&nbsp;00:02</span>
@@ -336,8 +355,9 @@ git push
   <ul>
     <li>
       <ul>
-        <li><a href="#关于hugo的使用">关于hugo的使用</a></li>
-        <li><a href="#云端同步自动化生产线">云端同步（自动化生产线）</a></li>
+        <li><a href="#-关于-hugo-的日常使用">📝 关于 Hugo 的日常使用</a></li>
+        <li><a href="#-本地调试-sop">🛠️ 本地调试 SOP</a></li>
+        <li><a href="#-云端同步自动化生产线">🚀 云端同步（自动化生产线）</a></li>
       </ul>
     </li>
   </ul>
@@ -443,7 +463,7 @@ git push
           author: "许安槐",
           title: "hugo的备忘录",
           url: "http:\/\/localhost:1313\/posts\/backup\/",
-          description: " 关于hugo的使用 新建：使用命令 hugo new posts\/my-new-post.md。这样 Hugo 会自动带上日期。 编写：在 VS Code 里写 Markdown。 管理：如果要修改关于页面或友链，去 content\/about.md 或 content\/friend.md 修改。 本地调试 养成先运行 hugo server -D 的习惯。 在浏览器查看 localhost:1313，确认头像、图片、排版没问题再提交。\n云端同步（自动化生产线） 由于你接通了 Vercel，你的维护动作只需要： git add . git commit -m \u0026ldquo;Update: 添 …",
+          description: " 📝 关于 Hugo 的日常使用 新建：使用命令 hugo new posts\/my-new-post.md。这样 Hugo 会自动带上日期。 编写：在 VS Code 里编写 Markdown，建议安装 Markdown All in One 插件。 管理：修改特殊页面，路径如下： 关于页面：content\/about.md 友链页面：content\/friend.md 🛠️ 本地调试 SOP 启动服务：养成运行 hugo server -D 的习惯。 实时预览：在浏览器访问 http:\/\/localhost:1313。 验收检查：确认头像、图片、排版无误后再提交。 🚀 云端同步（自动化生产 …",
           cover: "http:\/\/localhost:1313\/images\/banner.webp",
         };
       </script><script src="/js/insert_highlight.js" data-pjax></script><script src="/js/tabs.js" data-pjax></script><script type="module" data-pjax>const PhotoSwipeLightbox = (await safeImport("https:\/\/npm.webcache.cn\/photoswipe@5.4.4\/dist\/photoswipe-lightbox.esm.min.js", "sha384-DiL6M\/gG\u002bwmTxmCRZyD1zee6lIhawn5TGvED0FOh7fXcN9B0aZ9dexSF\/N6lrZi\/")).default;const initPswp = (gallery, children) => {
