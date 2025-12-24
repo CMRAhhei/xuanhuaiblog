@@ -102,36 +102,7 @@ A Hakurei Reimu style Hugo theme. Migrated from [hexo-theme-reimu](https://githu
 
 ## 安装
 
-> 纯小白可以直接使用 [hugo-reimu-template](https://github.com/D-Sketon/hugo-reimu-template)。只需 克隆仓库-修改配置 即可获得一个基本的博客！
-
-### 方式 1：Hugo Module（推荐）
-
-适用于熟悉 Go 生态的用户，支持版本管理和自动更新。
-
-```bash
-hugo new site quickstart
-cd quickstart
-hugo mod init github.com/<your-github-username>/quickstart  # 请替换 <your-github-username>
-echo 'theme = ["github.com/D-Sketon/hugo-theme-reimu"]' >> hugo.toml
-hugo server
-```
-
-### 方式 2：Git Submodule
-
-适用于希望手动管理主题版本的用户。
-
-```bash
-hugo new site quickstart
-cd quickstart
-git init
-git submodule add https://github.com/D-Sketon/hugo-theme-reimu.git themes/reimu
-echo 'theme = "reimu"' >> hugo.toml
-hugo server
-```
-
-选择适合你的安装方式，即可开始使用 **Hugo Theme Reimu**！
-
-## 使用
+  
 
 <details>
 <summary>创建配置</summary>
@@ -178,7 +149,7 @@ hasCJKLanguage = true
 ### 基本结构
 
 为了保证显示正确，请参考 `_example` 在 `content` 中建立 `archives` 和 `post` 文件夹 （里面的 `_index.md` 不可省略，且注意 `post` 的 `draft` 为 `true`）
-
+ 
 #### archives
 
 - `_index.md` 用于显示归档页面，不可省略
