@@ -18,7 +18,7 @@ menu:
     url: "friend"
     icon:
 
-mainSections: ["post"]
+mainSections: ["posts"] 
 # 年，月，日及时间的格式化样式
 # Format style for year,month,date & time
 yearFormat: "2006"
@@ -26,8 +26,8 @@ monthFormat: "2006-01"
 dateFormat: "2006-01-02"
 timeFormat: "2006-01-02 15:04:05"
 
-author: D-Sketon
-email: xxx@example.com
+author: 许安槐
+email: 563112309@qq.com
 description: "少女祈祷中..."
 subtitle: "少女祈祷中..."
 

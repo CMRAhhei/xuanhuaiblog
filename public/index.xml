@@ -7,17 +7,73 @@
     <generator>Hugo</generator>
     <language>zh-cn</language>
     
-    <managingEditor>xxx@example.com (D-Sketon)</managingEditor>
-    <webMaster>xxx@example.com (D-Sketon)</webMaster>
+    <managingEditor>563112309@qq.com (许安槐)</managingEditor>
+    <webMaster>563112309@qq.com (许安槐)</webMaster>
     
     <copyright>本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</copyright>
     
-    <lastBuildDate></lastBuildDate>
+    <lastBuildDate>Wed, 24 Dec 2025 00:00:00 +0000</lastBuildDate>
     
     
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss&#43;xml" />
     
 
+    
+    
+
+    <item>
+      <title>hugo的备忘录</title>
+      <link>http://localhost:1313/posts/backup/</link>
+      <pubDate>Wed, 24 Dec 2025 00:00:00 &#43;0000</pubDate>
+      <author>563112309@qq.com (许安槐)</author>
+      <guid>http://localhost:1313/posts/backup/</guid>
+      <description>
+        <![CDATA[<h1>hugo的备忘录</h1><p>作者：许安槐（563112309@qq.com）</p>
+        
+          <h3 id="关于hugo的使用">
+<a class="header-anchor" href="#%e5%85%b3%e4%ba%8ehugo%e7%9a%84%e4%bd%bf%e7%94%a8"></a>
+关于hugo的使用
+</h3><p>新建：使用命令 hugo new posts/my-new-post.md。这样 Hugo 会自动带上日期。
+编写：在 VS Code 里写 Markdown。
+管理：如果要修改关于页面或友链，去 content/about.md 或 content/friend.md 修改。
+本地调试
+养成先运行 hugo server -D 的习惯。
+在浏览器查看 localhost:1313，确认头像、图片、排版没问题再提交。</p>
+<h3 id="云端同步自动化生产线">
+<a class="header-anchor" href="#%e4%ba%91%e7%ab%af%e5%90%8c%e6%ad%a5%e8%87%aa%e5%8a%a8%e5%8c%96%e7%94%9f%e4%ba%a7%e7%ba%bf"></a>
+云端同步（自动化生产线）
+</h3><p>由于你接通了 Vercel，你的维护动作只需要：
+git add .
+git commit -m &ldquo;Update: 添加关于电气的备忘录&rdquo;
+git push
+一旦 push 成功，Vercel 会自动帮你构建并刷新域名内容。</p>
+        
+        <hr><p>本文2025-12-24首发于<a href='http://localhost:1313/'>许安槐的碎片</a>，最后修改于2025-12-24</p>]]>
+      </description>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>防止走的太远，忘记为什么出发</title>
+      <link>http://localhost:1313/posts/first-blog/</link>
+      <pubDate>Sun, 21 Dec 2025 00:00:00 &#43;0000</pubDate>
+      <author>563112309@qq.com (许安槐)</author>
+      <guid>http://localhost:1313/posts/first-blog/</guid>
+      <description>
+        <![CDATA[<h1>防止走的太远，忘记为什么出发</h1><p>作者：许安槐（563112309@qq.com）</p>
+        
+          <h3 id="helloworld">
+<a class="header-anchor" href="#helloworld"></a>
+Hello,World！
+</h3><p>这是我通过 Hugo 搭建的第一个个人博客。
+谷歌的Gemini帮了我很多，没有AI我估计要做上一周才能做出来。</p>
+        
+        <hr><p>本文2025-12-21首发于<a href='http://localhost:1313/'>许安槐的碎片</a>，最后修改于2025-12-21</p>]]>
+      </description>
+      
+    </item>
     
   </channel>
 </rss>

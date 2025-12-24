@@ -3,9 +3,3 @@ baseURL: "https://xuanhuaiblog.vercel.app/"
 languageCode: zh-cn
 title: "许安槐的碎片"  # 建议加双引号，防止特殊字符报错
 theme: "reimu"
-
-# 强制 Hugo 扫描 posts 文件夹
-params:
-  author: "许安槐"
-  description: "保持思考，不忘初心"
-  mainSections: ["posts"] # 这一行非常关键，告诉主题去哪里抓文章
