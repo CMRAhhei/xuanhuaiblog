@@ -719,9 +719,3 @@ internal_theme:
     --highlight-deletion-bg: "#490202"
     --highlight-addition: "#7ee787"
     --highlight-addition-bg: "#04260f"
-
-########################################
-# Custom Assets
-########################################
-custom_css:
-  - "css/custom.css" # 告诉 Hugo 加载你刚才写的放大代码
