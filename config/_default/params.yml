@@ -566,10 +566,10 @@ share:
 
 # show categories card on home page
 home_categories:
-  enable: false
+  enable: true
   content:
-    - categories: # string (single-layer category) or array (multi-layer category)
-      cover: # empty means random cover
+    - categories: "骑行" # string (single-layer category) or array (multi-layer category)
+      cover: "SMR_logo_carrier_Color_RGB.png" # empty means random cover
     - categories:
       cover:
 
