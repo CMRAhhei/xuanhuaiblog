@@ -1,0 +1,5 @@
+/* 限制首页分类卡片的最大高度 */
+.home-category-card {
+    max-height: 250px; 
+    overflow: hidden;
+}
